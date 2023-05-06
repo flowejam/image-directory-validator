@@ -51,10 +51,10 @@ def validate_and_preview():
 
     result = json.dumps(response_data)
 
-    return (result, 200)
+    return (result, 201)
 
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 8000))
-    app.run(port=port, debug=True)
+    app.run(port=port, debug=False)
 
