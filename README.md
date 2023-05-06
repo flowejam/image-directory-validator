@@ -30,6 +30,7 @@ The JSON data sent back will be in the following format:
 The response should return a max of 5 (unsorted) image filenames, and a boolean value depending on whether the directory sent in the request is valid or not.
 
 <h2> UML sequence diagram </h2>
+
 ![uml_sequence_microservice drawio](https://user-images.githubusercontent.com/91450942/236648028-2fea0685-7007-450c-8758-85d16b7a620b.png)
 
 <h2> Dependencies/installation </h2>
