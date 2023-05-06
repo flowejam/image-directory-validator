@@ -46,4 +46,9 @@ Run with the following command:
 gunicorn --bind 127.0.0.1:8000 wsgi:app
 ```
 
+Or:
+```
+python3 server.py
+```
+
 
