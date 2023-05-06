@@ -1,4 +1,4 @@
-# image-directory-validator
+# Image directory validator
 
 <h2> Instructions for requesting data: </h2>
 Send an HTTP request with the POST method, and must have Content-type application/json (a bad request response will be sent otherwise). The JSON sent in the body of the request should be in the following format:
