@@ -29,6 +29,8 @@ The JSON data sent back will be in the following format:
 
 The response should return a max of 5 (unsorted) image filenames, and a boolean value depending on whether the directory sent in the request is valid or not.
 
+<h2> UML sequence diagram </h2>
+
 <h2> Dependencies/installation </h2>
 
 ```
@@ -41,3 +43,5 @@ Run with the following command:
 ```
 gunicorn --bind 127.0.0.1:8000 wsgi:app
 ```
+
+
