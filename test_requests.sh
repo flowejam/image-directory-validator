@@ -14,7 +14,7 @@ curl -v -X POST -H "Content-type: application/json" \
        	http://localhost:8000/validate-directory
 
 # POST, invalid directory
-# should return 400 Bad Request response status code
+# should return {"image_filenames": [], "is_valid_directory": false}
 curl -v -X POST -H "Content-type: application/json" \
        	-d '{"directory_path": "2!0sf&"}' \
        	http://localhost:8000/validate-directory
